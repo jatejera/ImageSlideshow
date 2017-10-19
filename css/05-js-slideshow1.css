@@ -1,0 +1,43 @@
+@charset = "UTF-8";
+
+body {
+    background-color: #123;
+}
+
+#container {
+    background-color: #555;
+    width: 95%;
+    height: 95vh;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+#bigPicDiv {
+    width: 80%;
+    float:left;
+    background-color: #888;
+    height: 86vh;
+    margin-bottom: 15px;
+    overflow-y: scroll;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#thumbsDiv {
+    width: 19%;
+    float:right;
+    background-color: #AAA;
+    height: 86vh;
+    margin-bottom: 15px;
+    overflow-y: scroll;
+}
+
+#footer {
+    clear:both;
+    background-color: #CCC;
+    min-height: 8vh;
+}
